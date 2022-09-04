@@ -1,6 +1,5 @@
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
-
 const galleryContainerRef = document.querySelector('ul.gallery');
 
 const createGalleryMarkup = gelleryData =>
