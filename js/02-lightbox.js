@@ -1,9 +1,10 @@
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
+
 const galleryContainerRef = document.querySelector('ul.gallery');
 
-const createGalleryMarkup = gelleryData =>
-  gelleryData
+const createGalleryMarkup = galleryData =>
+  galleryData
     .map(
       ({ preview, original, description }) =>
         `<li class="gallery__item">
